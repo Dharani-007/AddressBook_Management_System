@@ -20,9 +20,10 @@ public class AddressBook {
         this.phone = phone;
         this.email = email;
     }
-    public String toString(){
-        return "First Name:"+firstName+"\nLast Name:"+lastName+"\nAddress:"+address+
-                "\nState:"+state+"\nCity:"+city+"\nZIP:"+zip+"\nPhone:"+phone+"\nEmail:"+email;
+
+    public String toString() {
+        return "First Name:" + firstName + "\nLast Name:" + lastName + "\nAddress:" + address +
+                "\nState:" + state + "\nCity:" + city + "\nZIP:" + zip + "\nPhone:" + phone + "\nEmail:" + email;
     }
 
     public static void main(String[] args) {
