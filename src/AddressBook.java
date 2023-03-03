@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-public class AddressBook{
-
+public class AddressBook {
     private final String firstName;
     private final String lastName;
     private final String address;
@@ -31,9 +30,9 @@ public class AddressBook{
         this.email = sc.next();
     }
 
-    public String toString(){
-        return "First Name:"+firstName+", Last Name:"+lastName+", Address:"+address+
-                ", State:"+state+", City:"+city+", ZIP:"+zip+", Phone:"+phone+", Email:"+email;
+    public String toString() {
+        return "First Name:" + firstName + ", Last Name:" + lastName + ", Address:" + address +
+                ", State:" + state + ", City:" + city + ", ZIP:" + zip + ", Phone:" + phone + ", Email:" + email;
     }
 
 
@@ -44,13 +43,13 @@ public class AddressBook{
 
         String list[] = new String[noOfEntry];
 
-        for (int i=0; i<noOfEntry; i++) {
-            System.out.println("Enter Value For contact No."+(i+1));
+        for (int i = 0; i < noOfEntry; i++) {
+            System.out.println("Enter Value For contact No." + (i + 1));
             AddressBook obj = new AddressBook();
             String contactDetails = obj.toString();
-            list[i]=contactDetails;
+            list[i] = contactDetails;
         }
-        for (int i=0; i<noOfEntry; i++){
+        for (int i = 0; i < noOfEntry; i++) {
             System.out.println(list[i]);
         }
     }
