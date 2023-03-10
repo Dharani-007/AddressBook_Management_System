@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c246cc0b-6a00-4db9-89a4-ee28759b3b0d" name="Changes" comment="Added : Delete persons using person's name">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AddressBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddressBook.java" afterDir="false" />
-    </list>
+    <list default="true" id="c246cc0b-6a00-4db9-89a4-ee28759b3b0d" name="Changes" comment="Added : Delete persons using person's name" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,6 +100,7 @@
     <MESSAGE value="Added : Create a Contact in AddressBook" />
     <MESSAGE value="Added : Add a New Contact in AddressBook" />
     <MESSAGE value="Added : Delete persons using person's name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added : Delete persons using person's name" />
+    <MESSAGE value="Added : Add multiple contacts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added : Add multiple contacts" />
   </component>
 </project>
