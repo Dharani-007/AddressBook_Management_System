@@ -1,13 +1,17 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 
 public class AddressBook {
 
     private static Scanner scanner = new Scanner(System.in);
     private static List<Person> personList = new ArrayList<>();
-    private static HashMap<String, List<Person>> addressBook = new HashMap<String, List<Person>>();
 
-    // this is the main method, Here is the starting point of the program.
-
+    /**
+     * this is the main method, Here is the starting point of the program.
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         System.out.println("Welcome to address book system program");
         boolean isExit = false;
@@ -52,11 +56,6 @@ public class AddressBook {
 
     private static void addContact() {
         Person newPerson = new Person();
-        AddressBookModel newAddressBook = new AddressBookModel();
-
-        System.out.print("Enter AddressBook Name: ");
-        String addressBookName = scanner.nextLine();
-
         System.out.print("Enter Firstname: ");
         newPerson.setFirstName(scanner.nextLine());
 
@@ -79,18 +78,7 @@ public class AddressBook {
         newPerson.setMobileNumber(scanner.nextLine());
 
         personList.add(newPerson);
-        addAddressBook(addressBookName);
-    }
-
-    private static void addAddressBook(String addressBookName) {
-
-        if (!addressBook.containsKey(addressBookName)) {
-            addressBook.put(addressBookName, personList);
-            System.out.println(Collections.singletonList(addressBook));
-            personList.clear();
-        } else {
-            System.out.println("\n\t\tRecord Already Exist");
-        }
+        System.out.println(personList.toString());
     }
 
    //Method for edit existing contact
@@ -144,7 +132,8 @@ public class AddressBook {
 
     }
 
-   // Method for filtering the first name from person list queried by user.
+    //Method for filtering the first name from person list queried by user.
+
     private static Person filter(String firstName) {
         for (int i = 0; i < personList.size(); i++) {
             if (personList.get(i).getFirstName().equalsIgnoreCase(firstName)) {
