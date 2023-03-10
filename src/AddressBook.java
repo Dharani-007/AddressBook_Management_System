@@ -1,5 +1,5 @@
 import java .util.Scanner;
-public class Contact {
+public class AddressBook {
     public String firstName;
     public String lastName;
     public String address;
