@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c246cc0b-6a00-4db9-89a4-ee28759b3b0d" name="Changes" comment="Added : Delete persons using person's name">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddressBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddressBook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="UC4-DeletePerson" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,6 +60,9 @@
       <workItem from="1677837959428" duration="5216000" />
       <workItem from="1677851630041" duration="38000" />
       <workItem from="1677851938196" duration="481000" />
+      <workItem from="1677898850427" duration="600000" />
+      <workItem from="1678099824859" duration="623000" />
+      <workItem from="1678470590657" duration="353000" />
     </task>
     <task id="LOCAL-00001" summary="Added : Create a Contact in Address Book">
       <created>1677843224341</created>
